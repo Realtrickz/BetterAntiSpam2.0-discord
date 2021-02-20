@@ -16,8 +16,8 @@ token: process.env.token,
 prefix: "!" //change this if you want another prefix! 
 })
  
-bot.onMessage()
- 
+bot.onMessage()`
+ `
 const fs = require('fs')
 
 const folders = fs.readdirSync("./commands/")
@@ -25,8 +25,8 @@ const folders = fs.readdirSync("./commands/")
 for (const files of folders) {
 const folder = fs.readdirSync(`./commands/${files}/`).filter(file => file.endsWith(".js"))
 
-for (const commands of folder) {
-const command = require(`./commands/${files}/${commands}`) 
-bot.command(command)
+for (const commands of folder) {`
+`const command = require(`./commands/${files}/${commands}`) 
+`bot.command(command)
 } 
 }`
