@@ -10,7 +10,10 @@ Make a new file called **.env** and write this `token=YOUR_BOT_TOKEN_HERE` after
 # how to add custom status to bot
 Copy this and add it to your **server.js** file
 `bot.status({
+
   text: "I am a cool bot",
+
   type: "PLAYING",
+
   time: 12
 })`
