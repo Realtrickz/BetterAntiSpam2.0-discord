@@ -6,3 +6,6 @@ If you are coding in <button><a href= "https://repl.it/~">repl.it</a> </button> 
 
 # How to Start My bot?
 Make a new file called **.env** and write this `token=YOUR_BOT_TOKEN_HERE` after you've done you can choose your bot prefix in **server.js** at `prefix: "YOUR_BOT_PREFIX"`
+
+# How to add Command handler?
+Go to **server.js** and paste this down
